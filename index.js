@@ -8,3 +8,7 @@ app.get('/', (req, res) => res.send('Hello World!'))
 
 // create server that listens to port 3000 and when server has started console.log that it has started
 app.listen(3000, () => console.log('Example app listening on port 3000!'))
+
+app.get('/simon', (req, res) => res.send('hej simon'))
+
+
