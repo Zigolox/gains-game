@@ -17,6 +17,8 @@
   },
   "homepage": "https://github.com/Zigolox/gains-game#readme",
   "dependencies": {
-    "express": "^4.16.3"
+    "express": "^4.16.3",
+    "path": "^0.12.7",
+    "request": "^2.87.0"
   }
 }
